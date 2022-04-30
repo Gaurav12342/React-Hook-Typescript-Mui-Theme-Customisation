@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
-import Button from '@mui/material/Button';
 import { ThemeProvider } from "@mui/material/styles";
-import { theme } from './theme';
+import { theme } from './customTheme';
+import RootComponent from './component/index';
 
 const App: FC = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Button variant="contained">Submit</Button>
+      <RootComponent />
     </ThemeProvider>
   );
 }
