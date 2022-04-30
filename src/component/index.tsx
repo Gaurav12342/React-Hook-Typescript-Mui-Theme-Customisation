@@ -11,7 +11,8 @@ const RootComponent: FC = () => {
 
             <Button variant="contained" sx={{ backgroundColor: 'primary.dark' }}>{'Submit'}</Button>
             <Button variant="contained" sx={{ backgroundColor: 'secondary.dark' }}>{'Okay'}</Button>
-            <Button variant="contained" sx={{ backgroundColor: (theme) => theme.status.danger }}>{'Okay'}</Button>
+            <Button variant="contained" sx={{ backgroundColor: (theme) => theme?.status?.danger }}>{'Okay'}</Button>
+            <Button variant="contained" sx={{ backgroundColor: (theme) => theme.palette.neutral.main }}>{'Okay'}</Button>
         </div>
     )
 }

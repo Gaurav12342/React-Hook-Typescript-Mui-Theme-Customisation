@@ -18,5 +18,11 @@ export const theme = createTheme({
       light: colors.deepOrange[100],
       contrastText: COLORS.black,
     },
+    neutral: {
+      main: colors.green[500],
+      dark: colors.green[900],
+      light: colors.green[100],
+      contrastText: COLORS.black,
+    },
   },
 });

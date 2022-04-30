@@ -3,14 +3,21 @@ import React from "react";
 
 declare module "@mui/material/styles" {
   interface Theme {
-    status: {
-      danger: string;
+    status?: {
+      danger?: string;
     };
   }
 
   interface ThemeOptions {
-    status: {
-      danger: React.CSSProperties["color"];
+    status?: {
+      danger?: React.CSSProperties["color"];
     };
+  }
+
+  interface Palette {
+    neutral?: PaletteColor;
+  }
+  interface PaletteOptions {
+    neutral?: PaletteColorOptions;
   }
 }
