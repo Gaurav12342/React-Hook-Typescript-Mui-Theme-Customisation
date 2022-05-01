@@ -5,7 +5,7 @@ import Button from './Button/index';
 const RootComponent: FC = () => {
     return (
         <div>
-            <Typography variant="h3" gutterBottom component="div">
+            <Typography variant="h4" gutterBottom component="div">
                 Root Component
             </Typography>
 
